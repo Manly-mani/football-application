@@ -1,0 +1,113 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar-section{
+  width: 100%;
+  height: 15vh;
+  background-color: crimson;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 47px;
+  font-weight: 600;
+}
+
+
+.content-section{
+  width: 100%;
+  min-height: 75vh;
+  
+}
+
+.tabs{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  margin-left: 420px;
+}
+
+.leagues-tab{
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-right: 20px solid grey;
+  outline: none;
+  
+
+}
+.standings-tab{
+  
+  outline: none;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  
+}
+img{
+  width: 70%;
+}
+.league-section{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  text-align: center;
+}
+p{
+  margin-left: 390px;
+  margin-top: -90px;
+  margin-bottom: 70px;
+  
+  color: black;
+  font-size: 37px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.league-contents{
+  width: 250px;
+  border: 2px solid red;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+
+.standing-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.footer-section{
+  width: 100%;
+  height: 10vh;
+  background-color: crimson;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+}
+
+
+
+
+
+
+
+
